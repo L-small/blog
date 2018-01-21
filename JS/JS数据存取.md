@@ -15,7 +15,7 @@
 
 我们以下面这个函数为例
 
-`
+```javascript
 function add(num1, num2) {
 
     var sum = num1 + num2;
@@ -25,7 +25,7 @@ function add(num1, num2) {
 }
 
 var total = add(5, 10);
-`
+```
 
 
 
