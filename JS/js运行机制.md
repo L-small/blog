@@ -90,5 +90,3 @@ callbackFn就是注册时的回调函数
 [1]: https://segmentfault.com/a/1190000004322358
 [2]: http://www.ruanyifeng.com/blog/2014/10/event-loop.html
 [3]: https://zhuanlan.zhihu.com/p/33127885
-[4]:
-[5]:
