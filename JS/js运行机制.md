@@ -87,6 +87,9 @@ callbackFn就是注册时的回调函数
 
 **事件机制其实就是异步任务的通知机制**
 
+
+参考资料：
+
 * https://segmentfault.com/a/1190000004322358
 * http://www.ruanyifeng.com/blog/2014/10/event-loop.html
 * https://zhuanlan.zhihu.com/p/33127885
