@@ -15,7 +15,7 @@
 
     主线程发起一个异步请求，相应的工作线程接收请求，并告知主线程已经收到（异步函数返回），主线程继续执行后面的同步代码，同事工作线程执行异步任务，工作线程完成工作后，通知主线程，主线程收到通知后，执行回调函数
 
-** 运行机制：**
+**运行机制：**
 
     1、运行主线程中的同步任务
     2、主线程执行到异步任务的发起函数（注册|定义的函数），通知相应的webAPIs进行相应的执行异步任务，将异步任务运行结果的通知放入任务队列中
@@ -85,8 +85,9 @@ setTimeout(fn, 1000)可以看成是timer.addEventListener('timeout', 1000, fn)�
 
 callbackFn就是注册时的回调函数
 
-** 事件机制其实就是异步任务的通知机制 **
+**事件机制其实就是异步任务的通知机制**
 
-[1]: https://segmentfault.com/a/1190000004322358
-[2]: http://www.ruanyifeng.com/blog/2014/10/event-loop.html
-[3]: https://zhuanlan.zhihu.com/p/33127885
+    * https://segmentfault.com/a/1190000004322358
+    * http://www.ruanyifeng.com/blog/2014/10/event-loop.html
+    * https://zhuanlan.zhihu.com/p/33127885
+    * https://segmentfault.com/a/1190000012806637
