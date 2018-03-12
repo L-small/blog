@@ -53,6 +53,8 @@
 
     console.log('end')
 
+因为promise的构造函数是同步的，promise.then是异步的微任务，所以promise beigin先于end
+
 根据上面对宏任务和微任务的分析，其输出的情况为【promise begin——end——then begin——begin】而不是【promise begin——end——then begin——begin】
 
 ### 三、异步与事件
