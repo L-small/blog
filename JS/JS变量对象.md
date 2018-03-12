@@ -63,6 +63,8 @@
     }
 
 
+
+
     function test() {
         console.log(foo);
         console.log(bar);
