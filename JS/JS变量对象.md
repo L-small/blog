@@ -55,6 +55,7 @@
         a: undefined
     }
 当进入执行阶段的时候
+
     AO = {
         arguments: {...},
         foo: (函数foo的地址引用),
