@@ -62,8 +62,7 @@
         a: 1
     }
 
-
-
+例子：
 
     function test() {
         console.log(foo);
