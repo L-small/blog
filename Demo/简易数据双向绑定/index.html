@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" class="input">
+    </div>
+    <div class="container"></div>
+    <script>
+        window.onload = function() {
+            let input = document.querySelector('.input')
+            let container = document.querySelector('.container')
+            let obj = {}
+
+            Object.defineProperties(obj, {
+                val: {
+                    get: () => {
+                        input.value = 0;
+                        container.innerHTML = 0;
+                        return 0
+                    },
+                    set: (newValue) => {
+                        container.innerHTML = newValue
+                    }
+                }
+            })
+            
+            input.addEventListener('keyup', () => {
+                obj.val = input.value
+            })
+        }
+    </script>
+</body>
+</html>
