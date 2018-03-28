@@ -17,6 +17,8 @@
 
 * [this](https://github.com/L-small/blog/blob/master/JS/this.md)
 
+* [按值传递和引用传递](https://github.com/L-small/blog/blob/master/JS/%E6%8C%89%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.md)
+
 优化类：
 
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/JS/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
