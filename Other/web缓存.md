@@ -9,6 +9,7 @@
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1frdlzifsvrj30d70fr3yt.jpg)
 
 <br>
+
 ### 2、强缓存：
 
 通过控制台可以看到，http状态为200，size显示from cache的请求是命中了强缓存的请求。
