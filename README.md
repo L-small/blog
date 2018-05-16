@@ -46,7 +46,10 @@
 
 ## BUG集：
 
-* [canvas相关问题]
+* [IOS Safari Canvas toDataURL报错](https://github.com/L-small/blog/blob/master/BUG/IOS%20Safari%20Canvas%20toDataURL%E6%8A%A5%E9%94%99.md)
+* [IOS active伪类失效](https://github.com/L-small/blog/blob/master/BUG/IOS%20active%E4%BC%AA%E7%B1%BB%E5%A4%B1%E6%95%88.md)
+* [IOS长数字识别为蓝色可点击链接](https://github.com/L-small/blog/blob/master/BUG/IOS%E9%95%BF%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%BA%E8%93%9D%E8%89%B2%E5%8F%AF%E7%82%B9%E5%87%BB%E9%93%BE%E6%8E%A5.md)
+* [滚动穿透](https://github.com/L-small/blog/blob/master/BUG/%E6%BB%9A%E5%8A%A8%E7%A9%BF%E9%80%8F.md)
 
 ## 其他:
 
