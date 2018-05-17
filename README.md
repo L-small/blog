@@ -19,11 +19,53 @@
 
 * [执行上下文](https://github.com/L-small/blog/blob/master/JS/%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87.md)
 
+* todo Promise
+
+* todo Generator
+
+* todo 事件相关
+
+* todo 原型和原型链
+
+* todo 继承
+
+* todo 闭包
+
+* todo amd和cmd、requirejs
+
 ## CSS：
+
+* todo BFC
+
+* todo CSS解析规则
+
+* todo line-height相关
+
+* todo 定位相关
+
+* todo Flex布局
+
+* todo 贝赛尔曲线
+
+* todo 居中
+
+* todo 常见布局
 
 ## 框架：
 
 ### Vue：
+
+* todo 路由原理
+
+* todo 双向绑定
+
+* todo 生命周期
+
+* todo 虚拟dom
+
+### 其他：
+
+* todo MVC和MVVM等框架
 
 ## 工具类
 
@@ -43,6 +85,22 @@
 
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/JS/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
 
+* todo 域名收敛
+
+* todo 浏览器渲染相关
+
+* todo 跨域相关
+
+* todo url请求过程
+
+* todo DNS预解析
+
+* todo chrome控制台
+
+* todo Fiddler、Charles基本操作
+
+* todo XXS CSRF
+
 ## Demo集：
 
 * [简单双向数据绑定](https://github.com/L-small/blog/tree/master/Demo/%E7%AE%80%E6%98%93%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A)
@@ -58,6 +116,7 @@
 
 ## Node:
 
+* 爬虫
 
 <br>
 

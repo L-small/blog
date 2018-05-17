@@ -123,3 +123,9 @@ http状态码是304，并显示Not Modified，则是命中了协商缓存
 ctrl+f5强制刷新页面的时候，直接请求源服务器，跳过协商缓存和强缓存
 
 f5刷新的时候，跳过强缓存，检查协商缓存
+
+参考资料：
+
+> https://github.com/amandakelake/blog/issues/41
+
+> http://www.cnblogs.com/lyzg/p/5125934.html?f=tt
