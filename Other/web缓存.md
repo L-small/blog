@@ -4,7 +4,7 @@
 
 缓存是提高页面访问速度的一个很好的方式，优秀的缓存策略可以减少延迟，缩短网页请求时间，减少带宽。
 
-缓存可以分为：强缓存和协商缓存
+缓存可以分为：强缓存和协商缓存。协商缓存依赖强缓存，没有强缓存就没有本地缓存。
 
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1frdlzifsvrj30d70fr3yt.jpg)
 
@@ -38,9 +38,21 @@
 
 #### 2） Cache-Control
 
-是http1.1提出的一个表示资源过期时间的header，过期时间是一个相对时间，以秒为单位，用数值表示，如：Cache-Control:max-age=315360000
+是http1.1提出的一个表示资源过期时间的header，过期时间是一个相对时间，以秒为单位，用数值表示，如：Cache-Control:max-age=315360000。
 
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1frdmovipqwj30fb04vaa6.jpg)
+
+Cache-Control还有其他的值：
+
+1、 no-store：不缓存
+
+2、 no-catch：缓存前，向服务器进行新鲜度验证
+
+3、 public：可以被所有用户缓存
+
+4、 private：不允许中继服务器缓存，只能被终端浏览器缓存
+
+![](http://ww1.sinaimg.cn/large/006FubJZgy1frenpv6w3cj30fe0jlju8.jpg)
 
 * 过程：
 
@@ -86,6 +98,8 @@ http状态码是304，并显示Not Modified，则是命中了协商缓存
 
 #### 2） [ETag，If-Modified-Since]
 
+![](http://ww1.sinaimg.cn/large/006FubJZgy1frenqfy87xj30fb07gaa7.jpg)
+
 * 过程：
 
 （1）浏览器第一次请求服务器资源时，服务器返回资源的同时，在response header里加上ETag，这个值是当前资源的唯一的标识，只要资源有变化，ETag就会变化
@@ -99,3 +113,13 @@ http状态码是304，并显示Not Modified，则是命中了协商缓存
 （3）服务器收到资源请求时，服务器会再生成一个新的ETag和传来的If-None-Match作比较，如果相同则命中缓存，返回304 Not Modified，不返回资源内容，并将ETag返回回去，即使没有变化。如果不相同，则返回资源内容。
 
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1frdonb04rdj30ae030weg.jpg)
+
+<br>
+
+### 浏览器行为对缓存的影响
+
+缓存的处理方式可以被浏览器的行为改变，比如：
+
+ctrl+f5强制刷新页面的时候，直接请求源服务器，跳过协商缓存和强缓存
+
+f5刷新的时候，跳过强缓存，检查协商缓存
