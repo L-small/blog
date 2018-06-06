@@ -21,17 +21,21 @@
 
 * todo Promise
 
+* todo async和await
+
 * todo Generator
+
+* todo 箭头函数
 
 * todo 事件相关
 
-* todo 原型和原型链
+* todo 原型、作用域、闭包
 
 * todo 继承
 
-* todo 闭包
-
 * todo amd和cmd、requirejs
+
+* todo 同一对象节点上绑定多个事件的执行顺序
 
 ## CSS：
 
@@ -51,6 +55,8 @@
 
 * todo 常见布局
 
+* todo 各种相关的单位rem、em等
+
 ## 框架：
 
 ### Vue：
@@ -63,9 +69,17 @@
 
 * todo 虚拟dom
 
-### 其他：
+* todo vuex整个触发过程
+
+* todo 响应式原理
+
+### 其他
 
 * todo MVC和MVVM等框架
+
+### 其他：
+
+* todo 移动端300ms延迟
 
 ## 工具类
 
@@ -100,6 +114,16 @@
 * todo Fiddler、Charles基本操作
 
 * todo XXS CSRF
+
+* todo 常用的性能优化
+
+* todo https建立过程
+
+* todo cookie和session
+
+* todo CORS原理
+
+* todo http和https区别
 
 ## Demo集：
 
