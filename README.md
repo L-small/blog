@@ -9,15 +9,19 @@
 
 * [异步和同步、阻塞和非阻塞](https://github.com/L-small/blog/blob/master/JS/%E5%BC%82%E6%AD%A5%E5%92%8C%E5%90%8C%E6%AD%A5%E3%80%81%E9%98%BB%E5%A1%9E%E5%92%8C%E9%9D%9E%E9%98%BB%E5%A1%9E.md)
 
-* [变量对象](https://github.com/L-small/blog/blob/master/JS/JS%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
-
-* [运行机制](https://github.com/L-small/blog/blob/master/JS/js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md)
-
-* [this](https://github.com/L-small/blog/blob/master/JS/this.md)
-
 * [按值传递和引用传递](https://github.com/L-small/blog/blob/master/JS/%E6%8C%89%E5%80%BC%E4%BC%A0%E9%80%92%E5%92%8C%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92.md)
 
 * [执行上下文](https://github.com/L-small/blog/blob/master/JS/%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87.md)
+
+* [变量对象](https://github.com/L-small/blog/blob/master/JS/JS%E5%8F%98%E9%87%8F%E5%AF%B9%E8%B1%A1.md)
+
+* [this](https://github.com/L-small/blog/blob/master/JS/this.md)
+
+* todo 原型、作用域、闭包
+
+* todo 继承
+
+* todo 事件委托
 
 * todo Promise
 
@@ -29,17 +33,17 @@
 
 * todo 事件相关
 
-* todo 原型、作用域、闭包
-
-* todo 继承
-
 * todo amd和cmd、requirejs
 
 * todo 同一对象节点上绑定多个事件的执行顺序
 
+* [运行机制](https://github.com/L-small/blog/blob/master/JS/js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md)
+
 ## CSS：
 
-* todo BFC
+* [BFC](https://github.com/L-small/blog/blob/master/CSS/BFC.md)
+
+* todo IFC
 
 * todo CSS解析规则
 
@@ -98,6 +102,8 @@
 * [web缓存](https://github.com/L-small/blog/blob/master/Other/web%E7%BC%93%E5%AD%98.md)
 
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/JS/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
+
+* [合并HTTP请求VS并行HTTP请求] ()
 
 * todo 域名收敛
 
