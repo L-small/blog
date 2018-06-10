@@ -19,7 +19,14 @@
 
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1fpagxt5qd0j30jh09qmxh.jpg)
 
-函数的声明比变量声明的优先级更高一点
+变量对象的创建过程决定了：函数的声明比变量声明的优先级更高一点
+
+    var a;              // 变量声明
+    function a() {      // 函数声明
+        alert(123)
+    }
+
+    console.log(typeof a)  // function
 
 
 ### 变量对象和活动对象的区别：
