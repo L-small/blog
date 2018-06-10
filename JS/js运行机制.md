@@ -16,8 +16,8 @@
 
 ### 三、宏任务和微任务
 
-宏任务（micro-task）主要是：script代码段、setTimeout、setInterval、Promise的构造函数是同步的、setImmediate、I/O、UIrendering
-微任务（macro-task）主要是：Promise的回调、process.nextTick
+宏任务（macro-task）主要是：script代码段、setTimeout、setInterval、Promise的构造函数是同步的、setImmediate、I/O、UIrendering
+微任务（micro-task）主要是：Promise的回调、process.nextTick
 
 ### 四、任务队列和事件循环
 
