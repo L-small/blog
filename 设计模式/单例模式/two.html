@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var SingletonTester = (function() {
+            function Singleton(args) {
+                var args = args || {}
+                this.name = 'SingletonTester'
+                this.pointX = args.pointX || 6
+                this.pointT = args.pointY || 10
+            }
+
+            var instance;
+
+            var _static = {
+                name: 'SingletonTester',
+                getInstance: function(args) {
+                    if (instance == undefined) {
+                        instance = new Singleton(args)
+                    }
+                    return instance
+                }
+            }
+            return _static
+        })()
+        var singletonTester = SingletonTester.getInstance({pointX: 5})
+        console.log(singletonTester.pointX)
+    </script>
+</body>
+</html>
