@@ -96,7 +96,7 @@ http状态码是304，并显示Not Modified，则是命中了协商缓存
 
 * 缺点：一般很可靠，但是也会有服务器资源发生变化，但是最后修改时间却没有变化的情况
 
-#### 2） [ETag，If-Modified-Since]
+#### 2） [ETag，If-None-Match]
 
 ![](http://ww1.sinaimg.cn/large/006FubJZgy1frenqfy87xj30fb07gaa7.jpg)
 
