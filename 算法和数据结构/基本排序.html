@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* 冒泡排序
+                    时间复杂度：n²
+                    思路：比较相邻元素，如果第一个比第二个大，交换他俩，一直比到最后一个，然后再从头开始，直到排序结束
+                */
+        var data = [12, 2, 4, 5, 6, 12, 44, 56, 1]
+
+        function bubbleSort(arr) {
+            let temp
+            let len = arr.length
+            for (let i = 0; i < len; i++) {
+                for (let j = 0; j < len - 1 - i; j++) {
+                    if (arr[j] > arr[j + 1]) {
+                        temp = arr[j]
+                        arr[j] = arr[j + 1]
+                        arr[j + 1] = temp
+                    }
+                }
+            }
+            return arr
+        }
+        console.log(bubbleSort(data))
+
+        /* 选择排序
+            时间复杂度：n²
+            思路：从数组的头部开始遍历，将第一个元素和其他元素进行比较，记录最小，等循环结束将最小的放到数组第一的位置，依次类推
+        */
+        function selectionSort(data) {
+            let len = data.length
+            let minIndex, temp
+            for (let i = 0; i < len - 1; i++) {
+                minIndex = i;
+                for (let j = i + 1; j < len; j++) {
+                    if (data[j] < data[minIndex]) {
+                        minIndex = j
+                    }
+                }
+                temp = data[i]
+                data[i] = data[minIndex]
+                data[minIndex] = temp
+            }
+            return data
+        }
+        console.log(selectionSort(data))
+
+        /* 快速排序
+            时间复杂度：n²，一般是nlogn
+            思路：找基准，然后进行二分，然后再递归找基准二分，直到最后
+        */
+        function quickSort(arr) {
+            if (arr.length == 0) {
+                return []
+            }
+            let len = arr.length
+            let left = []
+            let right = []
+            let flag = arr[0]
+            for (let i = 1; i < len; i++) {
+                if (arr[i] < flag) {
+                    left.push(arr[i])
+                } else {
+                    right.push(arr[i])
+                }
+            }
+            return quickSort(left).concat(flag, quickSort(right))
+        }
+        console.log(quickSort(data))
+    </script>
+</body>
+
+</html>
