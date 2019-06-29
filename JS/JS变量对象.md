@@ -32,6 +32,16 @@
 
     console.log(typeof a)  // function
 
+变量提升其实是为了解决函数互相调用的问题，比如：
+
+    function a() {
+        b();
+    }
+    function b() {
+        a();
+    }
+    a();
+    
 
 ### 变量对象和活动对象的区别：
 
