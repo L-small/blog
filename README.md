@@ -97,6 +97,8 @@
 
 ## 算法和数据结构：
 
+* [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
+
 ## 性能优化、浏览器、网络：
 
 * [web缓存](https://github.com/L-small/blog/blob/master/Other/web%E7%BC%93%E5%AD%98.md)
