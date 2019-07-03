@@ -1,7 +1,9 @@
 # blog
 个人博客
 
-努力做一个高产有质量的博主
+do more do better
+
+
 
 ## JS：
 
@@ -63,6 +65,8 @@
 
 * [垂直、水平居中](https://github.com/L-small/blog/blob/master/CSS/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B1%85%E4%B8%AD.md)
 
+
+
 ## 框架：
 
 ### Vue：
@@ -85,22 +89,33 @@
 
 * todo 移动端300ms延迟
 
+
+
 ## 工具类
 
 ### git：
 
+
+
 ## 小程序：
 
+
+
 ## 设计模式：
+
+
 
 ## 工程化
 
 ### webpack：
 
 
+
 ## 算法和数据结构：
 
 * [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
+
+* [排序](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%8E%92%E5%BA%8F.md)
 
 ## 性能优化、浏览器、网络：
 
@@ -136,11 +151,15 @@
 
 * todo http和https区别
 
+
+
 ## Demo集：
 
 * [简单双向数据绑定](https://github.com/L-small/blog/tree/master/Demo/%E7%AE%80%E6%98%93%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A)
 
 * [图片裁剪-仿微信头像上传裁剪](https://github.com/L-small/img-clip)
+
+
 
 ## BUG集：
 
@@ -149,6 +168,8 @@
 * [IOS fixed失效](https://github.com/L-small/blog/blob/master/BUG/IOS%20fixed%E5%A4%B1%E6%95%88.md)
 * [IOS长数字识别为蓝色可点击链接](https://github.com/L-small/blog/blob/master/BUG/IOS%E9%95%BF%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%BA%E8%93%9D%E8%89%B2%E5%8F%AF%E7%82%B9%E5%87%BB%E9%93%BE%E6%8E%A5.md)
 * [滚动穿透](https://github.com/L-small/blog/blob/master/BUG/%E6%BB%9A%E5%8A%A8%E7%A9%BF%E9%80%8F.md)
+
+
 
 ## Node:
 
