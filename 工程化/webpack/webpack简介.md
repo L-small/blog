@@ -1,6 +1,6 @@
 ## webpack
 
-![] (https://user-gold-cdn.xitu.io/2018/3/19/1623bfac4a1e0945?w=2152&h=850&f=png&s=133657)
+![](https://user-gold-cdn.xitu.io/2018/3/19/1623bfac4a1e0945?w=2152&h=850&f=png&s=133657)
 
 webpack会将我们多个项目模块打包构建成项目运行需要的几个静态文件。
 
@@ -78,4 +78,14 @@ webpack构建完成出来的静态文件。
 
 ### 流程
 
-entry(设定需要编译的入口) => loader(将入口文件和依赖等转换成webpack支持的格式) => plugin(对文件进行处理) => ouput(输出构建完成的文件))
+**entry**
+(设定需要编译的入口) => 
+**loader**(将入口文件和依赖等转换成webpack支持的格式) => 
+**plugin**(对文件进行处理) => 
+**ouput**(输出构建完成的文件))
+
+参考资料：
+
+> https://juejin.im/book/5a6abad5518825733c144469
+
+> https://webpack.docschina.org/configuration/
