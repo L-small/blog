@@ -1,6 +1,6 @@
 ## webpack
 
-![webpack] (https://user-gold-cdn.xitu.io/2018/3/19/1623bfac4a1e0945?w=2152&h=850&f=png&s=133657)
+![] (https://user-gold-cdn.xitu.io/2018/3/19/1623bfac4a1e0945?w=2152&h=850&f=png&s=133657)
 
 webpack会将我们多个项目模块打包构建成项目运行需要的几个静态文件。
 
