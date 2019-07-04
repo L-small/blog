@@ -8,6 +8,7 @@ webpack会将我们多个项目模块打包构建成项目运行需要的几个�
 
 多个代码模块一般会有一个项目入口，比如一个.js文件，这就是构建的入口。从这个文件开始解析依赖。也可以有多个入口
 
+
   module.exports = {
     entry: './src/index.js'
   }
@@ -35,6 +36,7 @@ webpack会将我们多个项目模块打包构建成项目运行需要的几个�
 
 webpack中处理多种文件格式的机制，可以理解为一个转换器，将各种文件格式转换成webpack支持打包的模块，一般默认webpack打包成js文件
 
+
   module: {
     rules: [
       {
@@ -49,6 +51,7 @@ webpack中处理多种文件格式的机制，可以理解为一个转换器，�
 
 webpack中其他的流程就都是plugin了，当loader将文件转换完成后的其他操作都交由plugin来完成。
 
+
   const uglifyPlugin= require('uglifyPlugin');
 
   module.exports = {
@@ -60,6 +63,7 @@ webpack中其他的流程就都是plugin了，当loader将文件转换完成后�
 ### output
 
 webpack构建完成出来的静态文件。
+
 
   module.exports = {
     output: {

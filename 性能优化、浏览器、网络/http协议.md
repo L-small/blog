@@ -4,6 +4,7 @@
 
 #### 请求格式
 
+
   GET / HTTP/1.0
   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5)
   Accept: */*
@@ -11,6 +12,7 @@
 第一行是请求方式 + 请求协议，后面多行是头信息
 
 #### 回应格式
+
 
   HTTP/1.0 200 OK 
   Content-Type: text/plain
@@ -46,6 +48,7 @@ http1.0的时候请求只能一个完事之后再发送另一个请求，1.1版�
 
 当一个TCP请求可以发送多个请求，并可以对应的返回的时候，就需要有机制来区分数据包是哪个请求的，content-length字段的作用就是来处理这个，这个字段会有个长度，超过这个长度的数据就是下一个数据包的了。
 当然content-length字段不是必须的，还有另外一种机制来实现管道机制——分块传输编码，头信息有Transfer-Encoding字段则表明回应将由数量未定的数据块组成，每个块前面都有个16进制的数值，当为0时，代表本次回应完成
+
 
   HTTP/1.1 200 OK
   Content-Type: text/plain
