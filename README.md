@@ -16,6 +16,8 @@
 
 * [this](https://github.com/L-small/blog/blob/master/JS/this.md)
 
+  * todo 实现bind、call、apply
+
 * todo 原型
 
 * todo 作用域和闭包
@@ -123,6 +125,8 @@
 
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/JS/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
 
+* todo 常用的性能优化
+
 * [合并HTTP请求VS并行HTTP请求] ()
 
 * todo 域名收敛
@@ -140,8 +144,6 @@
 * todo Fiddler、Charles基本操作
 
 * todo XXS CSRF
-
-* todo 常用的性能优化
 
 * todo https建立过程
 
