@@ -1,9 +1,6 @@
 # blog
 个人博客
 
-do more do better
-
-
 
 ## JS：
 
@@ -19,27 +16,37 @@ do more do better
 
 * [this](https://github.com/L-small/blog/blob/master/JS/this.md)
 
-* todo 原型、作用域、闭包
+* todo 原型
+
+* todo 作用域和闭包
 
 * todo 继承
 
 * todo 事件委托
 
-* todo Promise
+* todo event Loop
 
-* todo async和await
-
-* todo Generator
-
-* todo 箭头函数
-
-* todo 事件相关
-
-* todo amd和cmd、requirejs
+* todo 模块化
 
 * todo 同一对象节点上绑定多个事件的执行顺序
 
 * [运行机制](https://github.com/L-small/blog/blob/master/JS/js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md)
+
+
+
+## ES+
+
+* todo Promise
+
+* async/await
+
+* Proxy
+
+* Generator
+
+* todo 箭头函数
+
+
 
 ## CSS：
 
@@ -64,7 +71,6 @@ do more do better
 * todo 各种相关的单位rem、em等
 
 * [垂直、水平居中](https://github.com/L-small/blog/blob/master/CSS/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B1%85%E4%B8%AD.md)
-
 
 
 ## 框架：
@@ -102,12 +108,6 @@ do more do better
 
 
 ## 设计模式：
-
-
-
-## 工程化
-
-### webpack：
 
 
 
@@ -153,7 +153,7 @@ do more do better
 
 
 
-## Demo集：
+## Demo：
 
 * [简单双向数据绑定](https://github.com/L-small/blog/tree/master/Demo/%E7%AE%80%E6%98%93%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A)
 
@@ -161,7 +161,7 @@ do more do better
 
 
 
-## BUG集：
+## BUG：
 
 * [IOS Safari Canvas toDataURL报错](https://github.com/L-small/blog/blob/master/BUG/IOS%20Safari%20Canvas%20toDataURL%E6%8A%A5%E9%94%99.md)
 * [IOS active伪类失效](https://github.com/L-small/blog/blob/master/BUG/IOS%20active%E4%BC%AA%E7%B1%BB%E5%A4%B1%E6%95%88.md)
@@ -172,6 +172,8 @@ do more do better
 
 
 ## Node:
+
+* todo Event Loop
 
 <br>
 
