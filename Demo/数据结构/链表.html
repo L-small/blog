@@ -1,0 +1,127 @@
+<html>
+  <script>
+    function Node(item) {
+      this.element = item;
+      this.next = null;
+    }
+
+    function LList() {
+      this.head = new Node('head');
+      this.find = find;
+      this.add = add;
+      this.findPre = findPre;
+      this.del = del;
+      this.show = show;
+    }
+
+    function find(item) {
+      var currNode = this.head;
+      while (currNode.element != item) {
+        currNode = currNode.next;
+      }
+      return currNode;
+    }
+
+    function add(item, newItem) {
+      var newNode = new Node(newItem);
+      var currNode = this.find(item);
+      newNode.next = currNode.next;
+      currNode.next = newNode;
+    }
+
+    function findPre(item) {
+      var currNode = this.head;
+      while(currNode.next != null && currNode.next.element != item) {
+        currNode = currNode.next;
+      }
+      return currNode;
+    }
+
+    function del(item) {
+      var preNode = this.findPre(item);
+      if(preNode.next != null) {
+        preNode.next = preNode.next.next;
+      }
+    }
+
+    function show() {
+      var currNode = this.head;
+      while(currNode != null) {
+        console.log(currNode.element);
+        currNode = currNode.next;
+      }
+    }
+    
+
+    var obj = new LList();
+    obj.add('head', 'zhangsan');
+    obj.add('zhangsan', 'lisi');
+    obj.add('lisi', 'wanger');
+    obj.add('wanger', 'mazi');
+    obj.show();
+    console.log('=====add end=====')
+    obj.del('wanger');
+    obj.show();
+    console.log('-----end-------')
+
+
+    // 双向
+
+  function BothNode(item) {
+    this.element = item;
+    this.next = null;
+    this.pre = null;
+  }
+
+  function BothList() {
+    this.head = new BothNode('head');
+    this.find = findBoth;
+    this.add = addBoth;
+    this.del = delBoth;
+    this.show = showBoth;
+  }
+
+  function findBoth(item) {
+    var currNode = this.head;
+    while (currNode.element != item) {
+      currNode = currNode.next;
+    }
+    return currNode;
+  }
+
+  function addBoth(item, newItem) {
+    var newNode = new BothNode(newItem);
+    var currNode = this.find(item);
+    newNode.next = currNode.next;
+    newNode.pre = currNode;
+    
+    currNode.next = newNode;
+  }
+
+  function delBoth(item) {
+    var currNode = this.find(item);
+    currNode.next.pre = currNode.pre;
+    currNode.pre.next = currNode.next;
+  }
+
+  function showBoth() {
+    var currNode = this.head;
+    while(currNode != null) {
+      console.log(currNode.element);
+      currNode = currNode.next;
+    }
+  }
+
+  var bothObj = new BothList();
+  bothObj.add('head', 'zhangsan');
+  bothObj.add('zhangsan', 'lisi');
+  bothObj.add('lisi', 'wanger');
+  bothObj.add('wanger', 'mazi');
+  bothObj.add('lisi', 'xiaosan');
+  bothObj.show();
+  console.log('=====add end=====')
+  bothObj.del('xiaosan');
+  bothObj.show();
+  </script>
+</html>
+

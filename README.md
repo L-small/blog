@@ -4,6 +4,8 @@
 
 ## JS：
 
+* todo 类型
+
 * [深拷贝和浅拷贝](https://github.com/L-small/blog/blob/master/JS/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B5%85%E6%8B%B7%E8%B4%9D.md)
 
 * [异步和同步、阻塞和非阻塞](https://github.com/L-small/blog/blob/master/JS/%E5%BC%82%E6%AD%A5%E5%92%8C%E5%90%8C%E6%AD%A5%E3%80%81%E9%98%BB%E5%A1%9E%E5%92%8C%E9%9D%9E%E9%98%BB%E5%A1%9E.md)
@@ -25,6 +27,8 @@
 * todo 继承
 
 * todo 事件委托
+
+  * todo 计算器
 
 * todo event Loop
 
