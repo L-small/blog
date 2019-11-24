@@ -18,7 +18,13 @@
 
 * [this](https://github.com/L-small/blog/blob/master/JS/this.md)
 
-  * todo 实现bind、call、apply
+* [运行机制](https://github.com/L-small/blog/blob/master/JS/js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md)
+
+* [typeof null](https://github.com/L-small/blog/blob/master/JS/typeof%20null.md)
+
+* [简单函数概念](https://github.com/L-small/blog/blob/master/JS/%E7%AE%80%E5%8D%95%E5%87%BD%E6%95%B0%E6%A6%82%E5%BF%B5.md)
+
+* todo 实现bind、call、apply
 
 * todo 原型
 
@@ -28,15 +34,13 @@
 
 * todo 事件委托
 
-  * todo 计算器
+* todo 计算器
 
 * todo event Loop
 
 * todo 模块化
 
 * todo 同一对象节点上绑定多个事件的执行顺序
-
-* [运行机制](https://github.com/L-small/blog/blob/master/JS/js%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6.md)
 
 
 
@@ -58,6 +62,8 @@
 
 * [BFC](https://github.com/L-small/blog/blob/master/CSS/BFC.md)
 
+* [垂直、水平居中](https://github.com/L-small/blog/blob/master/CSS/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B1%85%E4%B8%AD.md)
+
 * todo IFC
 
 * todo CSS解析规则
@@ -76,7 +82,7 @@
 
 * todo 各种相关的单位rem、em等
 
-* [垂直、水平居中](https://github.com/L-small/blog/blob/master/CSS/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B1%85%E4%B8%AD.md)
+
 
 
 ## 框架：
@@ -107,6 +113,10 @@
 
 ### git：
 
+### webpack: 
+
+* [webpack入门](https://github.com/L-small/blog/blob/master/%E5%B7%A5%E7%A8%8B%E5%8C%96/webpack/webpack%E7%AE%80%E4%BB%8B.md)
+
 
 
 ## 小程序：
@@ -114,6 +124,8 @@
 
 
 ## 设计模式：
+
+* [观察者模式](https://github.com/L-small/blog/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/index.md)
 
 
 
@@ -127,11 +139,15 @@
 
 * [排序](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%8E%92%E5%BA%8F.md)
 
+* [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
+
 ## 性能优化、浏览器、网络：
 
-* [web缓存](https://github.com/L-small/blog/blob/master/Other/web%E7%BC%93%E5%AD%98.md)
+* [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
 
-* [作用域对性能的影响](https://github.com/L-small/blog/blob/master/JS/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
+* [作用域对性能的影响](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
+
+* [http协议](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/http%E5%8D%8F%E8%AE%AE.md)
 
 * todo 常用的性能优化
 

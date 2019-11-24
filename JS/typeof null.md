@@ -1,4 +1,4 @@
-##typeof null
+## typeof null
 
 JS类型值是存在32 BIT 单元里,32位有1-3位表示TYPE TAG,其它位表示真实值，而表示object的标记位正好是低三位都是0
 000: object. The data is a reference to an object.
