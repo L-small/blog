@@ -2,9 +2,11 @@
 个人博客
 
 
-## JS：
+## JS基础：
 
-* todo 类型
+* [词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
+
+* [执行上下文栈]()
 
 * [深拷贝和浅拷贝](https://github.com/L-small/blog/blob/master/JS/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B5%85%E6%8B%B7%E8%B4%9D.md)
 
