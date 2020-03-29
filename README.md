@@ -4,9 +4,23 @@
 
 ## JS基础：
 
-* [词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
+* 1.[原型到原型链]()
 
-* [执行上下文栈]()
+* 2.[词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
+
+* 3.[执行上下文栈](https://github.com/L-small/blog/issues/6)
+
+* 4.[变量对象]
+
+* 5.[作用域]
+
+* 6.[this]
+
+* 7.[执行上下文]
+
+* 8.[闭包]
+
+* 9.[内存机制及参数传递](https://github.com/L-small/blog/issues/4)
 
 * [深拷贝和浅拷贝](https://github.com/L-small/blog/blob/master/JS/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B5%85%E6%8B%B7%E8%B4%9D.md)
 
@@ -144,6 +158,8 @@
 * [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
 
 ## 性能优化、浏览器、网络：
+
+* [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
 
 * [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
 
