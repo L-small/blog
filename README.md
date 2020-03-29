@@ -161,7 +161,9 @@
 
 * [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
 
-* [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
+* [浏览器基础知识](https://github.com/L-small/blog/issues/3)
+
+* [从输入URL到页面渲染](https://github.com/L-small/blog/issues/2)
 
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
 
