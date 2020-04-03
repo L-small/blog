@@ -10,11 +10,11 @@
 
 * 3.[执行上下文栈](https://github.com/L-small/blog/issues/6)
 
-* 4.[变量对象]
+* 4.[变量对象](https://github.com/L-small/blog/issues/7)
 
-* 5.[作用域]
+* 5.[作用域](https://github.com/L-small/blog/issues/8)
 
-* 6.[this]
+* 6.[this](https://github.com/L-small/blog/issues/9)
 
 * 7.[执行上下文]
 
