@@ -103,9 +103,10 @@
 
 * 排序
 
-* 链表
+* 基本数据结构
 
-* 动态规划
+* 刷题记录
+
 
 
 ## 框架：
@@ -122,27 +123,26 @@
 
 * todo 响应式原理
 
-### 其他
+### React
 
-* todo MVC和MVVM等框架
+## 工程化
 
-### 其他：
-
-* todo 移动端300ms延迟
+### webpack
 
 
+## 基础知识
 
-## 工具类
+### 操作系统
 
-### git：
+### 计组
 
-### webpack: 
-
-* [webpack入门](https://github.com/L-small/blog/blob/master/%E5%B7%A5%E7%A8%8B%E5%8C%96/webpack/webpack%E7%AE%80%E4%BB%8B.md)
-
+### 计算机网络
 
 
 ## 小程序：
+
+## Mysql
+
 
 
 
@@ -151,19 +151,10 @@
 * [观察者模式](https://github.com/L-small/blog/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/index.md)
 
 
-## 算法和数据结构：
+## V8引擎和浏览器
 
-* [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
+## 性能优化
 
-### 数据结构
-
-* [链表](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8.md)
-
-* [排序](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%8E%92%E5%BA%8F.md)
-
-* [位运算](https://github.com/L-small/blog/blob/master/%E7%AE%97%E6%B3%95%E5%92%8C%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BD%8D%E8%BF%90%E7%AE%97.md)
-
-## 性能优化、浏览器、网络：
 
 * [web缓存](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/web%E7%BC%93%E5%AD%98.md)
 
@@ -174,10 +165,6 @@
 * [作用域对性能的影响](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/JS%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E6%80%A7%E8%83%BD%E7%9A%84%E5%BD%B1%E5%93%8D.md)
 
 * [http协议](https://github.com/L-small/blog/blob/master/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E3%80%81%E7%BD%91%E7%BB%9C/http%E5%8D%8F%E8%AE%AE.md)
-
-* todo 常用的性能优化
-
-* [合并HTTP请求VS并行HTTP请求] ()
 
 * todo 域名收敛
 
@@ -225,26 +212,4 @@
 
 ## Node:
 
-* todo Event Loop
 
-<br>
-
-<br>
-
-<br>
-
-## 面试题
-
-CSS
-
-JS
-
-Node
-
-Vue
-
-Webpack
-
-网络
-
-其它
