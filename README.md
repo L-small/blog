@@ -4,23 +4,23 @@
 
 ## JS基础：
 
-* 1.[原型到原型链]()
+* [原型到原型链]()
 
-* 2.[词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
+* [词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
 
-* 3.[执行上下文栈](https://github.com/L-small/blog/issues/6)
+* [执行上下文栈](https://github.com/L-small/blog/issues/6)
 
-* 4.[变量对象](https://github.com/L-small/blog/issues/7)
+* [变量对象](https://github.com/L-small/blog/issues/7)
 
-* 5.[作用域](https://github.com/L-small/blog/issues/8)
+* [作用域](https://github.com/L-small/blog/issues/8)
 
-* 6.[this](https://github.com/L-small/blog/issues/9)
+* [this](https://github.com/L-small/blog/issues/9)
 
-* 7.[执行上下文]
+* [执行上下文]
 
-* 8.[闭包]
+* [闭包]
 
-* 9.[内存机制及参数传递](https://github.com/L-small/blog/issues/4)
+* [内存机制及参数传递](https://github.com/L-small/blog/issues/4)
 
 * [深拷贝和浅拷贝](https://github.com/L-small/blog/blob/master/JS/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E5%92%8C%E6%B5%85%E6%8B%B7%E8%B4%9D.md)
 
