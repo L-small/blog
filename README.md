@@ -62,7 +62,7 @@
 
 ## ES+
 
-* todo Promise
+* Promise
 
 * async/await
 
@@ -99,6 +99,13 @@
 * todo 各种相关的单位rem、em等
 
 
+## 算法和数据结构系列：
+
+* 排序
+
+* 链表
+
+* 动态规划
 
 
 ## 框架：
@@ -142,7 +149,6 @@
 ## 设计模式：
 
 * [观察者模式](https://github.com/L-small/blog/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/index.md)
-
 
 
 ## 算法和数据结构：
