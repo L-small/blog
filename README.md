@@ -158,7 +158,7 @@
 
 ## 设计模式：
 
-* [观察者模式](https://github.com/L-small/blog/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/index.md)
+* [设计模式起步~](https://github.com/L-small/blog/issues/46)
 
 
 ## V8引擎和浏览器
