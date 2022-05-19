@@ -4,7 +4,7 @@
 
 ## JS基础：
 
-* [原型到原型链]()
+* [原型到原型链](https://github.com/L-small/blog/issues/14)
 
 * [词法作用域和动态作用域](https://github.com/L-small/blog/issues/5)
 
